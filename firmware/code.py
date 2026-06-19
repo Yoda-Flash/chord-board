@@ -165,7 +165,7 @@ def cycle_octave(octave):
 
 
 def update_key(key):
-    keystring = note_or_name(key)[:1] # Isolates the key without the octave designation
+    keystring = note_or_name(key)[-1] # Isolates the key without the octave designation
     return note_or_name(f"{keystring}{current_octave}")
 
 
@@ -177,7 +177,10 @@ def next_loop_pos(pos, len):
 
 
 def get_chord_notes(notes):
-    return "  ".join(notes)
+    string = ""
+    for note in notes:
+        string += f"{note_or_name(notes)}   "
+    return string
 
 
 def get_chord_name(rel_notes):
@@ -270,6 +273,9 @@ while True:
                     time_sequence.append(timer)
                     timer = 0
                 chord_sequence.append(notes)
+            else:
+                chord_sequence.clear()
+                time_sequence.clear()
 
         elif key == "keyup":
             current_key = raise_key(current_key)

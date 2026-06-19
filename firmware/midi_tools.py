@@ -1,7 +1,7 @@
 # Copied from https://github.com/CedarGroveStudios/CircuitPython_MIDI_Tools/blob/main/cedargrove_midi_tools.py
 
 # Note names used by note_or_name, note_name, and name_note helpers
-NOTE_BASE = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+NOTE_BASE = ["C", "C#/D♭", "D", "D#/E♭", "E", "F", "F#/G♭", "G", "G#/A♭", "A", "A#/B♭", "B"]
 
 
 def note_or_name(value):
