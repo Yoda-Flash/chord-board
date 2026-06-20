@@ -1,3 +1,4 @@
 cad/Chord[[:space:]]Board[[:space:]]Assembly.step filter=lfs diff=lfs merge=lfs -text
 cad/PCB[[:space:]]&[[:space:]]Parts.step filter=lfs diff=lfs merge=lfs -text
+cad/ filter=lfs diff=lfs merge=lfs -text
 *.step filter=lfs diff=lfs merge=lfs -text
