@@ -82,3 +82,10 @@ PCB:
 
 ## Bill of Materials
 ![img_1.png](assets/bom.png)
+
+## Firmware Instructions
+The firmware uses Circuit Python, 
+so get started with it following https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython
+
+Within the Circuit Python drive, 
+use pip to install the requirements in `requirements.txt` and transfer the files from `./firmware` to use!
