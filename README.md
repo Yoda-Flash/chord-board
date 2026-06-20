@@ -6,15 +6,34 @@ I came up with this idea because I've always loved playing with different chords
 I thought it would be cool to be able to experiment with them without having an actual instrument with me, 
 or needing to learn the chords and fingerings to hear different combinations.
 
-![img.png](assets/Zine Page.png)
+![img.png](assets/zine_page.png)
 
 ## Images
-![img.png](assets/Top Case View.png)
-![img.png](assets/Bottom Case View.png)
-![img.png](assets/PCB with Parts.png)
-![img.png](assets/PCB Front.png)
-![img.png](assets/PCB Back.png)
-![img.png](assets/PCB.png)
+### CAD
+Top view:
+
+![img.png](assets/top_case_view.png)
+
+Bottom view:
+
+![img.png](assets/bottom_case_view.png)
+
+CAD of PCB with parts:
+
+![img.png](assets/pcb_with_parts.png)
+
+### PCB
+PCB:
+
+![img.png](assets/pcb.png)
+
+3D PCB Front:
+
+![img.png](assets/pcb_front.png)
+
+3D PCB Back:
+
+![img.png](assets/pcb_back.png)
 
 ## Features
 ### Keypad
@@ -60,3 +79,6 @@ or needing to learn the chords and fingerings to hear different combinations.
 ### Stackable Case Cover
 - The case comes with a cover, so the device can be transported without fear of accidentally pressing keys or rotating knobs
 - The cover can be stacked on the bottom cover, so it doesn't have to lie around when the device is in use
+
+## Bill of Materials
+![img_1.png](assets/bom.png)
