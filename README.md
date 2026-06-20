@@ -6,6 +6,8 @@ I came up with this idea because I've always loved playing with different chords
 I thought it would be cool to be able to experiment with them without having an actual instrument with me, 
 or needing to learn the chords and fingerings to hear different combinations.
 
+![img.png](assets/Zine Page.png)
+
 ## Images
 ![img.png](assets/Top Case View.png)
 ![img.png](assets/Bottom Case View.png)
