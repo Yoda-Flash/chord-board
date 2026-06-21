@@ -87,7 +87,14 @@ PCB:
 
 ![img.png](assets/bom.png)
 
-## Firmware Instructions
+## How to Set Up
+
+### Build Instructions
+Gather the assembled PCB and the 3D printed pieces in the [cad folder](./cad), as well as 4 sets of M3 12mm screws and heat inserts and 1 set of M2 3mm screws and heat inserts. 
+
+Use a soldering iron to set the heat inserts in their respective holes (M2 3mm into the bottom case's back holes for the battery cover and M3 12mm for the bottom case's top holes for PCB mounting). Then, place the PCB in between the top and bottom case, and a battery and its cover into the slot on the back. Use a 2mm hex key to screw in the M2 screws and a 3mm hex key for the M3 one.
+
+### Firmware Instructions
 The firmware uses Circuit Python, 
 so get started with it following https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython
 
